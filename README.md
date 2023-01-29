@@ -1,25 +1,21 @@
-# Calculate Ratio and Factorial
+First Names of the People
+Create a file index.js in the names directory.
 
-Create a file `index.js` in the <b>ratioFactorial</b> directory.
+Write a JS function in index.js with function name getPeopleInCity that accepts people names list and returns an array of containing the first names of the people.
 
-Write a JS function in `index.js` that accepts 3 numbers as arguments and return the ratio of the first two numbers and factorial of the third number in an object with keys as `ratio` and `factorial`.
+Export the function using the default export syntax.
 
-Export the function using default export syntax.
+Folder Structure
 
-<b>Folder Structure</b>
-
-```
+country
+    - state
+        - city
+            - index.js    // contains the people names list
 utilities
-    - factorial
-        - index.js         // contains a function that returns the factorial of the given number
+    - utils
+        - index.js        // contains a function that returns the first names of the people
+names
+    - index.js            // create the file and write your code here
+Use the given modules.
 
-    - ratio
-        - index.js         // contains a function that returns the ratio of 2 given numbers
-
-    - ratioFactorial
-        - index.js         // create the file and write your code here
-```
-
-Use the functions provided in the ratio and factorial directories.
-
-<b>Use Common JS module syntax</b>.
+Use Common JS module syntax.
